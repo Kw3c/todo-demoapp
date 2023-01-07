@@ -23,7 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "aws s3 sync ./build s3://todo-react-front-app --profile=kwn"
+    "deploy": "aws s3 sync ./build s3://todoapp-react-demo --profile=kw31"
   },
   "eslintConfig": {
     "extends": [
