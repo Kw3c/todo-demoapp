@@ -30,7 +30,7 @@ const Header = () => {
 
     useEffect(()=>{
         //요청 URL
-        const url = API_BASE_URL + 'auth/load-profile';
+        const url = API_BASE_URL + '/auth/load-profile';
 
         //Access token
         const token = localStorage.getItem('ACCESS_TOKEN');
